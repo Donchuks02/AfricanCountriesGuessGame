@@ -26,6 +26,8 @@ This Python program allows users to interactively guess the names of African cou
 
 6. **Game Termination:**
    The game automatically ends after 50 guesses or when the player types "Exit".
+7. **Game demo**
+   ![Game demo](gameDemo.gif)
 
 **Files Included:**
 
