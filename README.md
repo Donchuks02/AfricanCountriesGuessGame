@@ -1,4 +1,4 @@
-**Africa Countries Game**
+**African Countries Game**
 
 This Python program allows users to interactively guess the names of African countries on a map using the Turtle module. Players input country names, and if guessed correctly, the program marks the location of the country on the map.
 
