@@ -22,7 +22,8 @@ all_countries = data.Country.to_list()  # Extracting country names from the Data
 while game_is_on:
 
     # Prompting the user to input a country name
-    user_answer = turtle.textinput(title=f"Guess The Country", prompt="Enter a county name").title()
+    user_answer = turtle.textinput(title=f"({num_of_guesses}/50) Guess The Country", prompt="Enter a county name"
+                                   ).title()
 
     # Checking if the user wants to exit the game
     if user_answer == "Exit":
