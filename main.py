@@ -41,7 +41,7 @@ while game_is_on:
 
         # Moving the turtle to the coordinates of the guessed country and marking its name
         t.goto(int(country_data.x), int(country_data.y))
-        t.write(country_data.Country.item(), font=('Arial', 8, 'bold'))
+        t.write(f"📍{country_data.Country.item()}", font=('Arial', 8, 'bold'))
 
         # Incrementing the number of correct guesses
         num_of_guesses += 1
